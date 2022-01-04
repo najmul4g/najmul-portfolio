@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+.hero-section{
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+}
+.vertical-align{
+    margin-top: 50px;
+}
+.half-width{
+    width: 50%;
+}
+h1{
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.najmul-sarker{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.najmul-color{
+    color: orange;
+}
+.hero-h3{
+    margin-top: 30px;
+
+}
+.half-width p{
+    margin: 10px 0 40px;
+    color: rgba(0, 0, 0, 0.603);
+}
+.link-button{
+    padding: 12px 40px;
+    color: #fff;
+    font-weight: 700;
+    background-image: linear-gradient(orange , #E96352);
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.hero-img{
+    width: 90%;
+    float: right;
+}
+/* hero end */
+
+.about-section{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+    background-position: right;
+}
+.about-img{
+    width: 95%;
+}
+.about-section h2{
+    font-size: 45px;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.about-section h3{
+    color: #000;
+    text-transform: capitalize;
+}
+.dream-big{
+    margin-left: 100px;
+}
