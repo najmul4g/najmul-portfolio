@@ -75,3 +75,52 @@ h1{
 .dream-big{
     margin-left: 100px;
 }
+/* dream section end */
+
+.ep-section{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0px 200px;
+    padding: 50px 0px 150px;
+}
+.ep-section .ep-title{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 50px;
+}
+.ep-section .ep-title2{
+    color: #000;
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.ep-section h3{
+    color: orange;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.ep-section .ep-box{
+    width: 42%;
+    padding: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 10px 10px 40px #0000005b;
+}
+#border-left1{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange , tomato) 30;
+}
+#border-left2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue , #7EFCFC) 30;
+}
+footer{
+    text-align: center;
+    padding: 20px 0;
+    color: rgba(0, 0, 0, 0.664);
+}
